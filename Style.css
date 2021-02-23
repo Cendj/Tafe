@@ -1,10 +1,18 @@
+html, body {
+    /* vh= viewport height / window height */
+    min-height: 100vh;
+}
 body{
     background-color: blanchedalmond;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 h1{
     text-align: center;
 }
-iframe{
 
+.Logo {
+width: 100px;
+height: 100px;
 }
